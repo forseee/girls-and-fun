@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.c697a536.js",
-    "static/js/453.1c398747.chunk.js": "/static/js/453.1c398747.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.c697a536.js.map": "/static/js/main.c697a536.js.map",
-    "453.1c398747.chunk.js.map": "/static/js/453.1c398747.chunk.js.map"
+    "main.css": "/girls-and-fun/static/css/main.f855e6bc.css",
+    "main.js": "/girls-and-fun/static/js/main.b942c981.js",
+    "static/js/453.1c398747.chunk.js": "/girls-and-fun/static/js/453.1c398747.chunk.js",
+    "static/media/logo.svg": "/girls-and-fun/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/girls-and-fun/index.html",
+    "main.f855e6bc.css.map": "/girls-and-fun/static/css/main.f855e6bc.css.map",
+    "main.b942c981.js.map": "/girls-and-fun/static/js/main.b942c981.js.map",
+    "453.1c398747.chunk.js.map": "/girls-and-fun/static/js/453.1c398747.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.c697a536.js"
+    "static/js/main.b942c981.js"
   ]
 }
