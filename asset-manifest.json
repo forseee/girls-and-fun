@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/girls-and-fun/static/css/main.86758f6f.css",
-    "main.js": "/girls-and-fun/static/js/main.0960f6f9.js",
+    "main.js": "/girls-and-fun/static/js/main.8bd917cf.js",
     "static/js/453.1c398747.chunk.js": "/girls-and-fun/static/js/453.1c398747.chunk.js",
+    "static/media/woman_motion.webm": "/girls-and-fun/static/media/woman_motion.59a42e2c5e605a576e78.webm",
     "index.html": "/girls-and-fun/index.html",
     "main.86758f6f.css.map": "/girls-and-fun/static/css/main.86758f6f.css.map",
-    "main.0960f6f9.js.map": "/girls-and-fun/static/js/main.0960f6f9.js.map",
+    "main.8bd917cf.js.map": "/girls-and-fun/static/js/main.8bd917cf.js.map",
     "453.1c398747.chunk.js.map": "/girls-and-fun/static/js/453.1c398747.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86758f6f.css",
-    "static/js/main.0960f6f9.js"
+    "static/js/main.8bd917cf.js"
   ]
 }
