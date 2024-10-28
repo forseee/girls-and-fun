@@ -1,10 +1,14 @@
 import { useRef } from "react"
 import "./App.css"
 import WheelOfFortune from "./wheelsOfFortuna"
-import videoFile from "./video/woman_motion.webm"
+import webmVideo from "./video/woman_motion.webm"
+import hevcVideo from "./video/woman_motion.mov"
 
 function App() {
   const videoRef = useRef(null)
+
+  const isAppleDevice = /Mac|iPhone|iPad|iPod/i.test(navigator.userAgent)
+  const videoSource = isAppleDevice ? hevcVideo : webmVideo
 
   const handlePlay = () => {
     videoRef.current.play()
@@ -25,6 +29,7 @@ function App() {
         loop
         muted
         tabIndex={-1}
+        src={videoSource}
         style={{
           position: "absolute",
           top: "0",
@@ -41,7 +46,6 @@ function App() {
         controls={false}
         preload="auto"
       >
-        <source src={videoFile} type="video/webm" />
         Ваш браузер не поддерживает тег video.
       </video>
       {/* <button onClick={handlePlay}>Воспроизвести</button>
